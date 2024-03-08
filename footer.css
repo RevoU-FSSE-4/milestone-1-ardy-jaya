@@ -1,0 +1,17 @@
+.footer-container {
+  width: 1535px;
+  height: 250px;
+  background-color: rgba(139, 168, 120, 0.3);
+  margin-top: 20px;
+}
+.information {
+  display: grid;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  line-height: 0.5;
+  margin-left: 50px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}

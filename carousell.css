@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* .container > img {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+} */
+
+.container-carousell {
+  height: 800px;
+  position: relative;
+  width: 100%;
+  /* display: block; */
+  margin: 0px auto;
+  border: 3px solid lightgrey;
+}
+
+.button-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 50px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 12px;
+}
+.arrow-prev {
+  left: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(135deg);
+}
+.arrow-next {
+  right: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^="item"] {
+  display: none;
+}
+
+.item-1 {
+  z-index: 1;
+  opacity: 1;
+  background: url("https://wallpaperswide.com/download/coat_model_fashion-wallpaper-1920x1200.jpg");
+  background-size: cover;
+}
+.item-2 {
+  background: url("https://c4.wallpaperflare.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg");
+  background-size: cover;
+}
+.item-3 {
+  background: url("https://wallpapers.com/images/featured/ultra-hd-wazf67lzyh5q7k32.jpg");
+  background-size: cover;
+}
+
+.container-button:target ~ .item-1 {
+  opacity: 0;
+}
+#item-1:target ~ .item-1 {
+  opacity: 1;
+}
+
+#item-2:target ~ .item-2,
+#item-3:target ~ .item-3 {
+  z-index: 3;
+  opacity: 1;
+}
