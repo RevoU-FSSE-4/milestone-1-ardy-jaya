@@ -67,24 +67,68 @@
 
 #check {display: none;}
 
-@media(max-width: 610px){
+@media (max-width: 430px) {
     .menu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 1;
-        background-color: black;
-        opacity: 90%;
-        transition: all 1s ease-in-out;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 1;
+      background-color: black;
+      opacity: 90%;
+      transition: all 1s ease-in-out;
     }
-    .menu li {margin-top: 40px;
-    margin-right:65px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {right: 0;}
-}
+    .menu li {
+      margin-top: 40px;
+      margin-right: 65px;
+    }
+    .menu li a {
+      padding: 10px;
+    }
+    .open-menu,
+    .close-menu {
+      display: block;
+    }
+    #check:checked ~ .menu {
+      right: 0;
+    }
+  .icon-container{
+    size-adjust: ;
+  }
+    .container-hermes a{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-hermes {
+       
+      height:auto ;
+      width: 40%;
+      
+    }
+    .link a {
+        display: flex;
+      font-size: 14px;
+    justify-content: center;
+        gap: 2px;
+    }
+    .head {
+      font-size: 15px;
+    }
+    .container-carousell {
+      width: 1000px;
+      height: 2000px;
+    }
+    .grid-container {
+      display: flex;
+    }
+    .video iframe {
+      display: grid;
+      width: 760px;
+      height: 400px;
+    }
+  }
+  
