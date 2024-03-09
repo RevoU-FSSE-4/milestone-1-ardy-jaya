@@ -96,8 +96,16 @@
     #check:checked ~ .menu {
       right: 0;
     }
-  .icon-container{
-    size-adjust: ;
+.comtaner-carousell{
+    display: flex;
+    width: 420px;
+    height: 200px;
+}
+  .icon-container > img{
+    display: inline-flex;
+    height: 20px; 
+    width: auto;
+    align-items: end;
   }
     .container-hermes a{
         display: flex;
