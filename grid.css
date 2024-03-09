@@ -30,8 +30,9 @@
 }
 
 h2 {
+  margin-top: 40px;
   font-family: "Italiana";
-  font-size: 88px;
+  font-size: 6em;
   font-style: normal;
   text-align: center;
   color: darkgrey;
