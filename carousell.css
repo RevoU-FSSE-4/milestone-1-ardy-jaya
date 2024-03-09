@@ -1,9 +1,9 @@
-.container {
+/* .container {
   display: flex;
   overflow: hidden;
   height: 100%;
   width: 100%;
-}
+} */
 
 /* .container > img {
   width: 100%;
@@ -12,10 +12,10 @@
 } */
 
 .container-carousell {
-  height: 800px;
+  height: 900px;
   position: relative;
   width: 100%;
-  /* display: block; */
+  display: block;
   margin: 0px auto;
   border: 3px solid lightgrey;
 }

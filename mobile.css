@@ -22,8 +22,10 @@
 }
 
 .logo img {
-    display:none;
-    width: 40px;}
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    }
 
 
 .menu {display: flex;}
@@ -67,7 +69,7 @@
 
 #check {display: none;}
 
-@media (max-width: 430px) {
+@media (max-width: 610px) {
     .menu {
       flex-direction: column;
       align-items: center;
@@ -98,22 +100,19 @@
     }
 
     .container-carousell {
-        display: flex;
-        flex-direction: column;
-        height: 200px;
+        height: 900px;
         position: relative;
-        width: 400px;
-      
-        border: 3px solid rgb(202, 196, 196);
+        width: 100%;
+        display: none;
+        margin: 0px auto;
+        border: 3px solid lightgrey;
       }
-/* h2{
-    font-size: 1em;
-} */
+h2{
+    font-size: 5px;
+}
 .button-item{
-  
     width: 300px;
-    height: 150px;
-    
+    height: 150px;   
 }
   .icon-container > img{
     display: inline-flex;
