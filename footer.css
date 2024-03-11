@@ -1,6 +1,6 @@
 .footer-container {
   display: flex;
-  justify-content: left;
+  /* justify-content: left; */
   width: auto;
   height: 250px;
   background-color: rgba(139, 168, 120, 0.3);
@@ -12,9 +12,9 @@
   font-family: "Lucida Console", "Courier New", monospace;
   line-height: 0.5;
   margin-left: 50px;
+  margin-top: 20px;
 }
 .video {
-  display:grid;
+  display: flex;
   justify-content: center;
-
 }

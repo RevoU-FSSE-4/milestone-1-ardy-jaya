@@ -60,12 +60,13 @@
 }
 .open-menu {
     top: 50%;
-    right: 65px;px;
+    right: 65px;;
     transform: translateY(-50%);
 }
 .close-menu {
-    top: 73px;
-    right: 67px;
+  color: aliceblue;
+    top: 9%;
+    right:62.3%;
 }
 
 #check {display: none;}
@@ -73,16 +74,16 @@
 @media (max-width: 610px) {
     .menu {
       flex-direction: column;
-      align-items: center;
+      align-items: left;
       justify-content: center;
-      width: 50%;
+      width: 80%;
       height: 100vh;
       position: fixed;
       top: 0;
       right: -100%;
-      z-index: 1;
-      background-color: black;
-      opacity: 90%;
+      z-index: 100;
+      background-color: rgb(20, 20, 20);
+      opacity: 100%;
       transition: all 1s ease-in-out;
     }
     .menu li {
@@ -102,18 +103,18 @@
 
 
     .container-carousell .button-item    {
-        margin-right: 10px;
-        height: 29vw;
-        position: relative;
+      display: flex;
+      justify-content: center;
+        height: 29vw;   
         width: 57vw;
-        overflow: hidden;
-          
+                
       }  
-      .logo{
+      .logo-sosmed{
         justify-content: center;
         gap: 30px;
       }
-.logo img{
+
+.logo-sosmed img{
     width: 15px;
     height: 15px;
     
@@ -121,27 +122,25 @@
 
 }
 
-/* .grid-container .grid-item {
-display: flex;
-    width: 300px;
-    height: 300px;
-flex-direction: column;
+/* .container-carousell{
+  display: block;
 } */
-.grid-item .designer{
+.grid-container .designer{
     font-size: 20px;
+  color: aliceblue;
+  text-shadow: 1px 1px 4px #181818;
 }
 
-.grid-container > .grid-item{
-    display: grid;
-    width: 150px;
-    height: 300px;
+.grid-container .grid-item
+{
 
 }
-
 .grid-container .grid-item img{
-    display: grid;
-    grid-row: 200px 200px;
-    gap: 10px;
+  opacity: 100%;
+  width: 150px;
+  height: 200px;
+
+
 }
 
 .team-design{
@@ -150,7 +149,8 @@ flex-direction: column;
 }
 .button-item{
     width: 300px;
-    height: 150px;   
+    height: 150px;
+    
 }
   .icon-container > img{
     display: inline-flex;
@@ -178,13 +178,35 @@ flex-direction: column;
       font-size: 15px;
     }
    
-    .grid-container {
-      display: flex;
-    }
+   
+   
     .video iframe {
-      display: grid;
-      width: 760px;
-      height: 400px;
+      display: flex;
+      width: 400px;
+      height: 225px;
+     justify-content: center;
     }
+
+    /* .footer-container > .logo-sosmed img {
+      display: block;
+      justify-content: center;
+      gap: 1px;
+      text-align: center;
+     
+     
+    } */
+    .logo-sosmed img{
+      display: block;
+
+      width: 20px;
+      height: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 1px;
+    }
+  .information{
+    font-size: 16px;
+    margin-top: 5px;
+  }
   }
   

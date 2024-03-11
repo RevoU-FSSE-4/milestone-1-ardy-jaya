@@ -17,7 +17,7 @@
   width: 80vw;
   display: block;
   margin: 0px auto;
-  border: 3px solid lightgrey;
+  /* border: 3px solid lightgrey; */
 }
 
 .button-item {
@@ -32,19 +32,19 @@
 }
 
 .arrow {
-  border: solid black;
+  border: solid rgb(206, 199, 199);
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 12px;
 }
 .arrow-prev {
-  left: 30px;
+  left: 2em;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(135deg);
 }
 .arrow-next {
-  right: 30px;
+  right: 2em;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);
